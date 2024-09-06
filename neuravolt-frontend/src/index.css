@@ -1,9 +1,16 @@
 
 
+
+/* CSS  */
+
+:root {
+    --sds-size-stroke-border: 1; 
+}
+ 
+
 *{
     margin: 0;
     padding: 0;
-    font-family: "DM Sans";
     text-decoration: none ;
     box-sizing: border-box ;
     overflow-x: hidden ;
@@ -12,7 +19,6 @@
 
 button{
     background: none;
-    border: none;
     outline: none;
     box-shadow: none;
 }
@@ -22,9 +28,69 @@ body{
     opacity: var(--sds-size-stroke-border);
     background: #FFF;
     width:100vw ; 
+    font-family: 'DM Sans', 
+    /* letter spacing */
 }
 
 
 
-
 /* NAVBAR */
+.navbar{
+    width:100vw ; 
+    height:6.78rem ;
+    display:flex ; 
+    justify-content: center;
+    align-items: center ;
+}
+
+.nav-container{
+    height:2.3rem ; 
+    width: 92% ;
+    display:flex ; 
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: -0.4px;
+}
+
+.nv-logo{
+    width: 7.1rem;
+    height: auto ; 
+    flex-shrink: 0;
+}
+
+
+.nav-links{
+    width:19rem ; 
+    height:1.9rem ; 
+    display:flex; 
+    justify-content: space-between;
+    align-items: center ;
+    opacity: var(--sds-size-stroke-border);
+}
+
+
+.nav-link{
+    height:1.8rem ; 
+    color: var(--Blue-gray-900, #101323);
+    font-family: "DM Sans";
+    font-size: 1.06rem;
+    font-style: normal;
+    font-weight: 750;
+    line-height: 1.75rem; /* 155.556% */
+}
+
+.nav-link:hover{
+    color:#056FFC;
+    transform: scale(1.03);
+}
+
+.nav-link .active{ 
+    color:#056FFC;
+}
+
+.nav-btn-container{
+    display:flex ; 
+    justify-content: space-between;
+    width:9.5rem ; 
+}
+

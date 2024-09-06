@@ -32,21 +32,21 @@ function Navbar( {page})
                <div className="nav-container">
 
                     <div className="logo-container">
-                        <NavLink to="/"><img src={neuravoltLogo} alt="NeuraVolt Logo"></img></NavLink>             
+                        <NavLink to="/"><img src={neuravoltLogo} className="nv-logo" alt="NeuraVolt Logo"></img></NavLink>             
                     </div>
 
                     <div className="nav-links">
-                        <NavLink className="nav-link" to=""> Solutions </NavLink>
+                        <NavLink className="nav-link" to="">Products</NavLink>
                         <NavLink className="nav-link" to=""> Pricing </NavLink>
                         <NavLink className="nav-link" to=""> About Us </NavLink>
-                        <NavLink className="nav-link" to=""> Contact Us </NavLink>
+                        {/* <NavLink className="nav-link" to=""> Contact Us </NavLink> */}
                     </div>
 
 
                     <div className="nav-btn-container">
                         { 
-                        page==="home" ? ( <><button className="signup-btn nav-btn"  onClick={signupClickHandler}>Sign Up</button>   <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button> </> ) 
-                                        : page==="signup" ? <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button>  : <button className="signup-btn nav-btn" onClick={signupClickHandler}>Sign Up</button> 
+                        page==="home" ? ( <><button className="contact-btn nav-btn"  onClick={signupClickHandler}>Contact Sales</button>   <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button> </> ) 
+                                        : page==="signup" ? <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button>  : <button className="contact-btn nav-btn" onClick={signupClickHandler}>Contact Sales</button> 
                                         
                         }
 
