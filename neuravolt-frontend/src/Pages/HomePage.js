@@ -1,5 +1,6 @@
 import HeroSection from "../Components/HeroSection";
 import Navbar from "../Components/Navbar";
+import FAQsection from "../Components/FAQsection" ; 
 
 
 
@@ -13,6 +14,8 @@ function HomePage()
 
 
             <HeroSection />
+
+            <FAQsection />
 
 
             HOMEPAGE 
