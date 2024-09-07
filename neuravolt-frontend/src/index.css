@@ -41,6 +41,7 @@ body{
     display:flex ; 
     justify-content: center;
     align-items: center ;
+    font-family: 'DM Sans', 
 }
 
 .nav-container{
@@ -92,5 +93,69 @@ body{
     display:flex ; 
     justify-content: space-between;
     width:9.5rem ; 
+}
+
+
+
+
+
+
+
+
+
+
+/* HEROSECTION */
+.hero-section{
+    width:100vw ; 
+    min-height:40rem ; 
+    position: relative;
+    /* background-color: pink; */
+}
+
+.hero-content{
+    display: flex;
+    width: 48rem;
+    max-height:21rem ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.8rem;
+    /* border:2px solid black ;  */
+    margin:6.3rem auto ; 
+}
+
+.hero-title{
+    height:auto ; 
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 740;
+    line-height: 4.4rem; /* 120% */
+    letter-spacing: -0.079rem;
+    padding:4px 2px; 
+
+    opacity: var(--sds-size-stroke-border);
+    background: var(--dark-g, linear-gradient(90deg, #00283C 0%, #1C1243 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-desc{
+    width: 38.375rem;
+    color: var(--Gray-900, #101828);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 1.26rem;
+    font-style: normal;
+    font-weight: 430;
+    line-height: 1.875rem; /* 150% */
+}
+
+
+.hero-btn{
+    margin-top:2rem ;
+    align-self: center ;
 }
 

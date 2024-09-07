@@ -1,3 +1,4 @@
+import HeroSection from "../Components/HeroSection";
 import Navbar from "../Components/Navbar";
 
 
@@ -9,6 +10,9 @@ function HomePage()
         <div>
 
             <Navbar page={"home"}/>
+
+
+            <HeroSection />
 
 
             HOMEPAGE 

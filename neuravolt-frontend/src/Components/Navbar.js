@@ -8,8 +8,8 @@ function Navbar( {page})
 
     const navigate = useNavigate() ; 
 
-    function signupClickHandler(){
-       navigate('/signup') ; 
+    function contactClickHandler(){
+       navigate('/contact-sales') ; 
     }
 
 
@@ -45,8 +45,8 @@ function Navbar( {page})
 
                     <div className="nav-btn-container">
                         { 
-                        page==="home" ? ( <><button className="contact-btn nav-btn"  onClick={signupClickHandler}>Contact Sales</button>   <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button> </> ) 
-                                        : page==="signup" ? <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button>  : <button className="contact-btn nav-btn" onClick={signupClickHandler}>Contact Sales</button> 
+                        page==="home" ? ( <><button className="contact-btn nav-btn"  onClick={contactClickHandler}>Contact Sales</button>   <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button> </> ) 
+                                        : page==="contact" ? <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button>  : <button className="contact-btn nav-btn" onClick={contactClickHandler}>Contact Sales</button> 
                                         
                         }
 
