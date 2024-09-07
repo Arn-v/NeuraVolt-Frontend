@@ -8,7 +8,7 @@ function LoginForm()
 
     const [loginFormData , setLoginFormData ] = useState( {
                                                             email:"" , 
-                                                            password:"" , 
+                                                            neuraKey:"" , 
                                                           })
 
 
@@ -45,14 +45,14 @@ function LoginForm()
                     <label htmlFor="email">Enter Email</label>
                     <input type="text" onChange={changeHandler} name="email" id="email"></input>
 
-                    <label htmlFor="password">Enter Password</label>
-                    <input type="password" onChange={changeHandler} name="password" id="password"></input>
+                    <label htmlFor="neura-key">Enter NeuraKey</label>
+                    <input type="password" onChange={changeHandler} name="neuraKey" id="neura-key"></input>
 
                 </div>
 
                 <div>
                     <button>Sign In</button>
-                    <NavLink to="/forgot-password"> Forgot Password ? </NavLink>
+                    <NavLink to="/forgot-neurakey"> Forgot NeuraKey ? </NavLink>
 
                 </div>
             </form>

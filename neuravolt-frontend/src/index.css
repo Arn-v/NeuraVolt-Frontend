@@ -111,7 +111,7 @@ body::-webkit-scrollbar {
 /* HEROSECTION */
 .hero-section{
     width:100vw ; 
-    min-height:40rem ; 
+    min-height:37rem ; 
     position: relative;
     /* background-color: pink; */
 }
@@ -126,7 +126,9 @@ body::-webkit-scrollbar {
     gap: 1.8rem;
     /* border:2px solid black ;  */
     margin:6.3rem auto ;
-    padding-right:5px ;
+
+    padding-right:3px ; /* not ideal */ 
+
 }
 
 .hero-title{
@@ -154,8 +156,9 @@ body::-webkit-scrollbar {
     font-family: "DM Sans";
     font-size: 1.26rem;
     font-style: normal;
-    font-weight: 430;
+    font-weight: 460;
     line-height: 1.875rem; /* 150% */
+    letter-spacing: -0.015rem;
 }
 
 
