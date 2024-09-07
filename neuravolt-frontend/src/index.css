@@ -28,7 +28,7 @@ body{
     opacity: var(--sds-size-stroke-border);
     background: #FFF;
     width:100vw ; 
-    font-family: 'DM Sans', 
+    font-family: 'DM Sans' ; 
     /* letter spacing */
 }
 
@@ -193,6 +193,66 @@ body::-webkit-scrollbar {
 
 
 /* FAQ SECTION */
+.faq-section{
+    width:100vw ; 
+    min-height:45rem ;
+    padding:  5.1rem 5rem ;
+    display:flex ; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+
+
+    opacity: var(--sds-size-stroke-border);
+    background: #F1F5F9;
+}
+
+.faq-title{
+    height:auto ; 
+    width: 56.25rem;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem; 
+    opacity: var(--sds-size-stroke-border);
+}
+
+.faq-title h1{
+    width:100% ; 
+    height: 4.5rem ;
+    /* padding:4px 2px  ;  */
+    color: #056FFC;
+    text-align: center;
+    font-family: 'DM Sans' ; 
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.1rem ;
+}
+
+.faq-desc{
+    width:100% ; 
+    height: auto ;
+    color: var(--Blue-Gray-600, #475569);
+    text-align: center;
+
+    font-family: 'DM Sans';
+    font-size: 1.21rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; 
+}
+
+.FAQ-container{
+    margin-top:5rem ; 
+    margin-bottom: 5rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    opacity: var(--sds-size-stroke-border);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
 
 
 .accordion-container{
