@@ -1,11 +1,18 @@
-
-
+import gLight from "../assets/gLight.svg" ; 
+import yLight from "../assets/yLight.svg" ; 
 
 function HeroSection()
 {
 
     return(
+
+
         <div className="hero-section">
+
+
+            <div className="hero-grey-light"><img src={gLight} alt="grey-lighting"></img></div>
+            <div className="hero-yellow-light"><img src={yLight} alt="yellow-lighting"></img></div>
+
 
             <div className="hero-content">
 
@@ -15,12 +22,12 @@ function HeroSection()
 
                 <button className="hero-btn">Know More</button>
                 
-
             </div>
 
-            <div></div>
 
-            <div></div>
+
+{/* 
+            <div className="hero-yellow-light"><img src={yLight} alt="yellow-lighting"></img></div> */}
 
 
         </div>

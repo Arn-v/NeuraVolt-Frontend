@@ -32,6 +32,10 @@ body{
     /* letter spacing */
 }
 
+body::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and other WebKit-based browsers */
+  }
+
 
 
 /* NAVBAR */
@@ -121,7 +125,8 @@ body{
     align-items: center;
     gap: 1.8rem;
     /* border:2px solid black ;  */
-    margin:6.3rem auto ; 
+    margin:6.3rem auto ;
+    padding-right:5px ;
 }
 
 .hero-title{
@@ -159,3 +164,15 @@ body{
     align-self: center ;
 }
 
+.hero-grey-light{
+    position:absolute ; 
+    right:-4px ; 
+}
+
+.hero-yellow-light img{
+    position:absolute ; 
+    transform: scale(0.97);
+    right: -4px ; 
+    top:112px ; 
+    
+}
