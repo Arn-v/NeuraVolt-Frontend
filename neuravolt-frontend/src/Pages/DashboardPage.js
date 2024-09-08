@@ -6,8 +6,11 @@ function DashboardPage()
 
     return(
         <div className="dashboard-page">
+
             <Sidebar />
-            <Outlet />
+
+            <div className="dashboard-view"><Outlet /></div>
+
         </div>
     )
 }

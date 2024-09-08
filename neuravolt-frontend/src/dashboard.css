@@ -1,0 +1,47 @@
+
+
+/* ---------- DASHBOARD -------------  */
+
+
+/* DASHBOARD-PAGE */
+.dashboard-page{
+    width:100vw ; 
+    height:100vh ; 
+    display:flex ; 
+    background-color:rgb(210, 239, 255) ; 
+}
+
+.dashboard-view{
+    flex-grow: 1;   /* It can grow to take up extra space */
+    flex-shrink: 1; /* It can shrink if space is tight */
+    flex-basis: 0%; /* It starts with no size, then adjusts */
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* SIDEBAR */
+
+/* open state */
+.sidebar{
+    position:relative ; 
+    background-color: white ;
+
+}
+
+.sidebar-toggle-btn{
+    position: absolute;
+    right: -12px; /* Equivalent to -right-3 */
+    top: 36px; /* Equivalent to top-9 */
+    width: 28px; /* Equivalent to w-7 */
+    cursor: pointer;
+    border-radius: 50%; /* Equivalent to rounded-full */
+    border: 2px solid #1E1E2F; /* Equivalent to border-dark-purple */
+    z-index:5 ; 
+}
+
+
+.sidebar.closed{
+    width:20px ; 
+}

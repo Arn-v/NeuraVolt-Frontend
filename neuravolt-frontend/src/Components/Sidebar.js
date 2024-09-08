@@ -7,11 +7,23 @@ import weather from "../assets/sidebar/Cloud.svg" ;
 import contactUs from "../assets/sidebar/Mail.svg" ; 
 import profile from "../assets/sidebar/User.svg" ; 
 import setting from "../assets/sidebar/settings.svg" ; 
+import nvIcon from "../assets/logo.svg" ; 
+import bolt from "../assets/blueBolt.svg" ; 
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 
 function Sidebar()
 {
+
+    const [open , setOpen ] = useState(true) ;
+
+    function sidebarHandler(){
+        setOpen(!open) ; 
+        console.log(open) ; 
+    }
+
+
 
     return(
         <div className="sidebar">
@@ -22,12 +34,17 @@ function Sidebar()
 
 
 
-            <div className="logo-container"></div>
+            <div className="logo-container">
+                <img src={bolt} alt="bolt"></img>
+                <img src={nvIcon} alt="neuravolt"></img>
+            </div>
 
 
 
 
-            <div className="burger-container"></div>
+            <div className="burger-container">
+                <button onClick={sidebarHandler} className="sidebar-toggle-btn" >-</button>
+            </div>
 
 
 
