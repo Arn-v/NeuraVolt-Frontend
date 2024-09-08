@@ -5,7 +5,7 @@ function Inbox()
 
     return(
         <div>
-            INBOX PAGE 
+            <h2>INBOX PAGE </h2>
         </div>
     )
 }

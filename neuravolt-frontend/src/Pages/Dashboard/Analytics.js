@@ -5,7 +5,8 @@ function Analytics()
 
     return(
         <div>
-            ANALYTICS PAGE 
+            <h2>ANALYTICS PAGE </h2>
+
         </div>
     )
 }

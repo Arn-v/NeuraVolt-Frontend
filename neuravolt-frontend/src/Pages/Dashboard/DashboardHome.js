@@ -5,7 +5,7 @@ function DashboardHome()
 
     return(
         <div>
-            DASHBOARD HOME 
+            <h2>DASHBOARD HOME </h2>
         </div>
     )
 }

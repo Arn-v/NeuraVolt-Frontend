@@ -1,0 +1,10 @@
+<svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mail" clip-path="url(#clip0_126_9861)">
+<path id="Icon" d="M17.25 5.49935C17.25 4.62852 16.575 3.91602 15.75 3.91602H3.75C2.925 3.91602 2.25 4.62852 2.25 5.49935M17.25 5.49935V14.9993C17.25 15.8702 16.575 16.5827 15.75 16.5827H3.75C2.925 16.5827 2.25 15.8702 2.25 14.9993V5.49935M17.25 5.49935L9.75 11.041L2.25 5.49935" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_126_9861">
+<rect width="18" height="19" fill="white" transform="translate(0.75 0.75)"/>
+</clipPath>
+</defs>
+</svg>
