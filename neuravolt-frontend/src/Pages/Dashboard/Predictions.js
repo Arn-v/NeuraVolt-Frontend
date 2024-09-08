@@ -5,7 +5,7 @@ function Predictions()
 
     return(
         <div>
-            PREDICTIONS PAGE 
+           <h2> PREDICTIONS PAGE </h2>
         </div>
     )
 }

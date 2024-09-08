@@ -7,6 +7,11 @@ import Inbox from "./Pages/Dashboard/Inbox";
 import Predictions from "./Pages/Dashboard/Predictions";
 import Analytics from "./Pages/Dashboard/Analytics";
 import DashboardHome from "./Pages/Dashboard/DashboardHome";
+import ConsumerReports from "./Pages/Dashboard/ConsumerReports";
+import WeatherAnalysis from "./Pages/Dashboard/WeatherAnalysis";
+import Profile from "./Pages/Dashboard/Profile";
+import Settings from "./Pages/Dashboard/Settings";
+import APIkey from "./Pages/Dashboard/APIkey";
 
 
 function App() 
@@ -26,12 +31,12 @@ function App()
               <Route path="inbox" element={ <Inbox/> }  />
               <Route path="predictions" element={<Predictions />}  />
               <Route path="analytics" element={<Analytics />}  />
-              {/* <Route path="/consumer-reports" element=  />
-              <Route path="/weather" element=  />
-              <Route path="/api-keys" element=  />
-              <Route path="/contact-us" element=  />
-              <Route path="/profile" element=  />
-              <Route path="/aetting" element=  /> */}
+              <Route path="consumer-reports" element={<ConsumerReports />}  />
+              <Route path="weather" element={<WeatherAnalysis />}  />
+              {/* <Route path="/contact-us" element={}  /> */}
+              <Route path="api-key" element={<APIkey />} />
+              <Route path="profile" element={<Profile />}  />
+              <Route path="settings" element={<Settings />} />
 
             </Route>
 

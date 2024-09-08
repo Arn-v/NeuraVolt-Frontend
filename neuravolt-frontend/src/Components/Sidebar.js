@@ -9,6 +9,8 @@ import profile from "../assets/sidebar/User.svg" ;
 import setting from "../assets/sidebar/settings.svg" ; 
 import nvIcon from "../assets/logo.svg" ; 
 import bolt from "../assets/blueBolt.svg" ; 
+import { FaRegSmileBeam } from "react-icons/fa";
+
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 
@@ -32,8 +34,6 @@ function Sidebar()
 
 
 
-
-
             <div className="logo-container">
                 <img src={bolt} alt="bolt"></img>
                 <img src={nvIcon} alt="neuravolt"></img>
@@ -42,7 +42,7 @@ function Sidebar()
 
 
 
-            <div className="burger-container">
+            <div className="toggle-container">
                 <button onClick={sidebarHandler} className="sidebar-toggle-btn" >-</button>
             </div>
 
@@ -61,7 +61,7 @@ function Sidebar()
                     </div>
                 </NavLink>
 
-                <NavLink to="">
+                <NavLink to="inbox">
                     <div className="sidebar-item service">
                             <img src={box} alt="box"></img>
                             <p>Inbox</p>
@@ -70,7 +70,7 @@ function Sidebar()
                 </NavLink>
 
 
-                <NavLink to="">
+                <NavLink to="predictions">
                     <div className="sidebar-item service">
                             <img src={predictions} alt="pred"></img>
                             <p>Predictions</p>
@@ -78,7 +78,7 @@ function Sidebar()
                     </div>
                 </NavLink>
 
-                <NavLink to="">
+                <NavLink to="analytics">
                     <div className="sidebar-item service">
                             <img src={anaytics} alt="analytics"></img>
                             <p>Analytics</p>
@@ -87,7 +87,7 @@ function Sidebar()
                 </NavLink>
 
 
-                <NavLink to="">
+                <NavLink to="consumer-reports">
                     <div className="sidebar-item service">
                             <img src={consumerReport} alt="cr"></img>
                             <p>Consumer Report</p>
@@ -160,7 +160,14 @@ function Sidebar()
 
 
 
-            <div className="profile-container"></div>
+            <div className="profile-container">
+                <div><FaRegSmileBeam /></div>
+
+                <div className="profile-text">
+                    <p>Arnav Singh</p>
+                    <p>arnv15@neura.com</p>
+                </div>
+            </div>
 
 
 
