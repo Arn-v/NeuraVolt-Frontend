@@ -5,7 +5,7 @@ function DashboardPage()
 {
 
     return(
-        <div>
+        <div className="dashboard-page">
             <Sidebar />
             <Outlet />
         </div>
