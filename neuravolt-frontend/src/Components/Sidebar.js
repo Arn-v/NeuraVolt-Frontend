@@ -35,16 +35,16 @@ function Sidebar()
 
 
             <div className="logo-container">
-                <img src={bolt} alt="bolt"></img>
-                <img src={nvIcon} alt="neuravolt"></img>
+                {/* <img src={bolt} alt="bolt"></img> */}
+                <img  className="nv-icon" src={nvIcon} alt="neuravolt"></img>
             </div>
 
 
 
 
-            <div className="toggle-container">
+            {/* <div className="toggle-container">
                 <button onClick={sidebarHandler} className="sidebar-toggle-btn" >-</button>
-            </div>
+            </div> */}
 
 
 
@@ -95,15 +95,15 @@ function Sidebar()
                     </div>
                 </NavLink>
 
-                <NavLink to="">
+                <NavLink to="weather-impact-analysis">
                     <div className="sidebar-item service">
                             <img src={weather} alt="weather"></img>
-                            <p>Weather Impact Analysis</p>
+                            <p>Weather Impact</p>
 
                     </div>
                 </NavLink>
 
-                <NavLink to="">
+                <NavLink to="api-key">
                     <div className="sidebar-item service">
                             <img src={null} alt="key"></img>
                             <p>API Keys</p>
@@ -131,7 +131,7 @@ function Sidebar()
                 </NavLink>
 
                 
-                <NavLink to="">
+                <NavLink to="profile">
                         <div className="sidebar-item help">
                                 <img src={profile} alt=""></img>
                                 <p>Profile</p>
@@ -141,7 +141,7 @@ function Sidebar()
 
 
                 
-                <NavLink to="">
+                <NavLink to="settings">
                         <div className="sidebar-item help">
                                 <img src={setting} alt=""></img>
                                 <p>Settings</p>

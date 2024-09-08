@@ -32,8 +32,7 @@ function App()
               <Route path="predictions" element={<Predictions />}  />
               <Route path="analytics" element={<Analytics />}  />
               <Route path="consumer-reports" element={<ConsumerReports />}  />
-              <Route path="weather" element={<WeatherAnalysis />}  />
-              {/* <Route path="/contact-us" element={}  /> */}
+              <Route path="weather-impact-analysis" element={<WeatherAnalysis />}  />
               <Route path="api-key" element={<APIkey />} />
               <Route path="profile" element={<Profile />}  />
               <Route path="settings" element={<Settings />} />
