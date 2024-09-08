@@ -10,6 +10,8 @@ import setting from "../assets/sidebar/settings.svg" ;
 import nvIcon from "../assets/logo.svg" ; 
 import bolt from "../assets/blueBolt.svg" ; 
 import { FaRegSmileBeam } from "react-icons/fa";
+import { RiKey2Fill } from "react-icons/ri";
+
 
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
@@ -105,7 +107,7 @@ function Sidebar()
 
                 <NavLink to="api-key">
                     <div className="sidebar-item service">
-                            <img src={null} alt="key"></img>
+                            <RiKey2Fill  className="key-icon"/>
                             <p>API Keys</p>
 
                     </div>
@@ -161,7 +163,7 @@ function Sidebar()
 
 
             <div className="profile-container">
-                <div><FaRegSmileBeam /></div>
+                <div><FaRegSmileBeam size={30} className="profile-icon" /></div>
 
                 <div className="profile-text">
                     <p>Arnav Singh</p>
