@@ -53,7 +53,7 @@ function Sidebar()
 
 
 
-            <div className="service-content-container">
+            <div className="service-content-container contents">
 
                 <NavLink to="">
                     <div className="sidebar-item service">
@@ -122,7 +122,7 @@ function Sidebar()
 
 
 
-            <div className="help-content-container">
+            <div className="help-content-container contents">
 
                 <NavLink to="">
                         <div className="sidebar-item help">
