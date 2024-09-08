@@ -48,12 +48,13 @@ body::-webkit-scrollbar {
 }
 
 .nav-container{
-    height:2.3rem ; 
+    height:auto ; 
     width: 92% ;
     display:flex ; 
     justify-content: space-between;
     align-items: center;
     letter-spacing: -0.4px;
+ 
 }
 
 .nv-logo{
@@ -77,7 +78,7 @@ body::-webkit-scrollbar {
     height:1.8rem ; 
     color: var(--Blue-gray-900, #101323);
     font-family: "DM Sans";
-    font-size: 1.125rem;
+    font-size: 1.145rem;
     font-style: normal;
     font-weight: 750;
     line-height: 1.75rem; /* 155.556% */
@@ -229,11 +230,11 @@ body::-webkit-scrollbar {
     font-weight: 800;
     letter-spacing: -0.1rem ;
 
-    opacity: var(--sds-size-stroke-border);
+    /* opacity: var(--sds-size-stroke-border);
     background: linear-gradient(90deg, #5CA2FF 0%, #5196F2 12.1%, #5196F2 14.1%, #468AE5 26.6%, #3B7FD9 38.1%, #2F72CA 51.6%, #2567BE 62.6%, #1B5CB3 73.1%, #1253A8 83.1%, #0B4A9F 91.6%, #034296 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
 
 .faq-desc{
