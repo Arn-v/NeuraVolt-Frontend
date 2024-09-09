@@ -40,7 +40,7 @@ function LoginForm()
     return(
 
         <div>
-            
+
             <h2 className="login-title">Log In</h2>
 
             <form className="login-form" onSubmit={submitHandler}>
@@ -49,19 +49,19 @@ function LoginForm()
 
                     <div className="login-input-container">
                         <label htmlFor="email">Enter Email</label>
-                        <input type="text" onChange={changeHandler} name="email" id="email"></input>
+                        <input type="text" onChange={changeHandler} name="email" id="email" placeholder="abcd@gmail.com"></input>
                     </div>
                     
 
                     <div className="login-input-container">
                         <label htmlFor="neura-key">Enter NeuraKey</label>
-                        <input type="password" onChange={changeHandler} name="neuraKey" id="neura-key"></input>
+                        <input type="password" onChange={changeHandler} name="neuraKey" placeholder="Neurakey" id="neura-key"></input>
                     </div>
 
                 </div>
 
 
-                <div className="login-btn-container">
+                <div className="login-form-btn-container">
                     <button className="login-btn">Sign In</button>
                     <NavLink to="/forgot-neurakey"> Forgot NeuraKey ? </NavLink>
 

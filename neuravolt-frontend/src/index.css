@@ -408,6 +408,9 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 .login-form > div {
     width:100% ; 
     height:auto ; 
+    displaY:flex ; 
+    flex-direction: column ;
+    gap:12px ; 
 }
 
 .login-input-container{
@@ -416,12 +419,56 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     flex-direction: column ;
     justify-content: space-between;
     align-items: flex-start ;
+    gap:4px ; 
+
+    label{
+        color: var(--sds-color-text-default-default);
+
+    /* Body Base */
+    font-family: var(--sds-typography-body-font-family);
+    font-size: var(--sds-typography-body-size-medium);
+    font-style: normal;
+    font-weight: var(--sds-typography-body-font-weight-regular);
+    line-height: 140%; /* 1.4rem */
+    }
 
 
     input{
+        all:unset ; 
         height:2rem ; 
         width:100% ; 
+        border-radius: var(--sds-size-radius-200);
+        border: 1px solid var(--sds-color-border-default-default);
+        opacity: var(--sds-size-stroke-border);
+        background: var(--sds-color-background-default-default);
+        font-size:
     }
+}
+
+.login-form-btn-container{
+    width:100% ; 
+    display:flex ; 
+    flex-direction: column  ;
+}
+
+.login-btn{
+    height:2.5rem ; 
+    padding: 0.7rem auto ;
+    background-color: #FFD60A;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+ 
+    color: var(--Labels-Primary, #000);
+
+    font-family: "DM Sans" ; 
+    font-size: var(--sds-typography-body-size-medium);
+    font-style: normal;
+    font-weight: var(--sds-typography-body-font-weight-regular);
+    line-height: 100%; /* 1rem */
+    font-weight: 400;
+    border-radius: 0.45rem ;
+    border:none
 }
 
 
