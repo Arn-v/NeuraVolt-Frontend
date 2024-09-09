@@ -429,7 +429,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     height:auto ; 
     displaY:flex ; 
     flex-direction: column ;
-    gap:15px ; 
+    gap:16px ; 
 }
 
 .login-input-container{
@@ -457,18 +457,26 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     input{
         all:unset ; 
         height:2.05rem ; 
-        width:100% ; 
+        width:95% ; 
         border-radius: var(--sds-size-radius-200);
         border: 1px solid var(--sds-color-border-default-default);
         opacity: var(--sds-size-stroke-border);
         background: var(--sds-color-background-default-default);
         font-size:0.9rem ; 
         padding:0 10px ; 
+        border-radius: 5px ;
+
     }
 }
 
+
+.login-input-container input:hover {
+    border:1px solid #1b7dfe ;
+
+}
+
 .login-form-btn-container{
-    width:100% ; 
+    width:95% ; 
     display:flex ; 
     flex-direction: column  ;
     margin-bottom:6px ;
@@ -481,6 +489,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     display:flex; 
     justify-content: center;
     align-items: center;
+    font-size: 1.1rem ;
  
     color: var(--Labels-Primary, #000);
 
@@ -492,6 +501,22 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     font-weight: 400;
     border-radius: 0.45rem ;
     border:none
+}
+
+.login-form .login-btn:hover{
+    cursor: pointer;
+    transform: sc;
+
+}
+
+
+.forgot-neurakey{
+    color:#056FFC ; 
+    text-decoration: underline ;
+    font-size: 0.95rem ;
+    padding-left:4px ; 
+    margin: 2px 0 ; 
+
 }
 
 

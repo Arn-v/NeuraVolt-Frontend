@@ -72,7 +72,7 @@ function LoginForm()
 
                 <div className="login-form-btn-container">
                     <button onClick={loginClickHandler} className="login-btn">Log In</button>
-                    <NavLink to="/forgot-neurakey"> Forgot NeuraKey ? </NavLink>
+                    <NavLink className="forgot-neurakey" to="/forgot-neurakey"> Forgot NeuraKey ? </NavLink>
 
                 </div>
             </form>
