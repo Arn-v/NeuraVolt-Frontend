@@ -6,8 +6,11 @@ function LoginPage()
 {
     return(
 
-        <div>
+        <div className="login-page">
+
+            
             <Navbar page={"login"} />
+
 
 
             <LoginForm />
