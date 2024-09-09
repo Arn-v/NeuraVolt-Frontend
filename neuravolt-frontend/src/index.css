@@ -5,6 +5,10 @@
 
 :root {
     --sds-size-stroke-border: 1; 
+    --sds-color-border-default-default: #D9D9D9 ; 
+    --sds-color-text-default-default: #1E1E1E ; 
+    --sds-color-text-default-tertiary:#B3B3B3 ; 
+    --sds-color-background-default-default: #FFFFFF; 
 }
  
 
@@ -364,6 +368,66 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 
 /* LOGIN-PAGE */
+.login-page{
+    width:100vw ; 
+    height:100vh ; 
+    opacity: var(--sds-size-stroke-border);
+    background: #FFF;
+}
+
+.login-section{
+    width:100vw ; 
+    height:calc(100vh - 6.775rem ) ; 
+    display:flex ; 
+    justify-content: center ;
+    align-items: center ;
+}
+
+.login-form {
+    height:19.725rem  ; 
+    width:30.25rem ; 
+    border:1px solid black  ;
+    border-radius: 11px ;
+    padding:1.1rem 1rem ; 
+    background: #F4F9FF;
+    display:flex ; 
+    flex-direction: column ;
+    justify-content: space-between ;
+    align-items: center ;
+
+    border-radius: 0.625rem;
+    border: var(--sds-size-stroke-border) solid var(--sds-color-border-default-default);
+    opacity: var(--sds-size-stroke-border);
+    background: #F4F8FF;
+    box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.30);
+
+    
+}
+
+
+.login-form > div {
+    width:100% ; 
+    height:auto ; 
+}
+
+.login-input-container{
+    width:100% ; 
+    display:flex ; 
+    flex-direction: column ;
+    justify-content: space-between;
+    align-items: flex-start ;
+
+
+    input{
+        height:2rem ; 
+        width:100% ; 
+    }
+}
+
+
+
+
+
 
 
 

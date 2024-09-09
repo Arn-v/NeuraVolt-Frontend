@@ -40,24 +40,29 @@ function LoginForm()
     return(
 
         <div>
-            <form onSubmit={submitHandler}>
-                <div>
+            
+            <h2 className="login-title">Log In</h2>
 
-                    <div>
+            <form className="login-form" onSubmit={submitHandler}>
+
+                <div className="login-fields-container">
+
+                    <div className="login-input-container">
                         <label htmlFor="email">Enter Email</label>
                         <input type="text" onChange={changeHandler} name="email" id="email"></input>
                     </div>
                     
 
-                    <div>
+                    <div className="login-input-container">
                         <label htmlFor="neura-key">Enter NeuraKey</label>
                         <input type="password" onChange={changeHandler} name="neuraKey" id="neura-key"></input>
                     </div>
 
                 </div>
 
-                <div>
-                    <button>Sign In</button>
+
+                <div className="login-btn-container">
+                    <button className="login-btn">Sign In</button>
                     <NavLink to="/forgot-neurakey"> Forgot NeuraKey ? </NavLink>
 
                 </div>

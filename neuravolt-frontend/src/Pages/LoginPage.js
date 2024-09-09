@@ -12,10 +12,14 @@ function LoginPage()
             <Navbar page={"login"} />
 
 
+            <div className="login-section">
 
-            <LoginForm />
+                <LoginForm />
 
-            LOGIN PAGE 
+            </div>
+
+
+
         </div>
     ) ; 
 }
