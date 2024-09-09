@@ -380,15 +380,34 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     height:calc(100vh - 6.775rem ) ; 
     display:flex ; 
     justify-content: center ;
-    align-items: center ;
+    align-items: center ; 
+    padding-bottom:4vh ; 
+
 }
 
+.login-title{
+    height:auto ; 
+    padding: 3px 4px ; 
+    color: var(--Labels-Primary, #000);
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%; /* 3.6rem */
+    letter-spacing: -1px ;
+    margin-bottom: 2px ;
+    margin-left: 1px ;
+}
+
+
+
 .login-form {
-    height:19.725rem  ; 
-    width:30.25rem ; 
+    height:19.225rem  ; 
+    width:29.25rem ; 
+    align-self: center ;
+    justify-self: center ; 
     border:1px solid black  ;
     border-radius: 11px ;
-    padding:1.1rem 1rem ; 
+    padding:1.12rem 1.05rem ; 
     background: #F4F9FF;
     display:flex ; 
     flex-direction: column ;
@@ -410,7 +429,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     height:auto ; 
     displaY:flex ; 
     flex-direction: column ;
-    gap:12px ; 
+    gap:15px ; 
 }
 
 .login-input-container{
@@ -423,6 +442,8 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
     label{
         color: var(--sds-color-text-default-default);
+        font-weight: 600;
+        color:#000 ; 
 
     /* Body Base */
     font-family: var(--sds-typography-body-font-family);
@@ -435,13 +456,14 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
     input{
         all:unset ; 
-        height:2rem ; 
+        height:2.05rem ; 
         width:100% ; 
         border-radius: var(--sds-size-radius-200);
         border: 1px solid var(--sds-color-border-default-default);
         opacity: var(--sds-size-stroke-border);
         background: var(--sds-color-background-default-default);
-        font-size:
+        font-size:0.9rem ; 
+        padding:0 10px ; 
     }
 }
 
@@ -449,10 +471,11 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     width:100% ; 
     display:flex ; 
     flex-direction: column  ;
+    margin-bottom:6px ;
 }
 
-.login-btn{
-    height:2.5rem ; 
+.login-form .login-btn{
+    height:2.55rem ; 
     padding: 0.7rem auto ;
     background-color: #FFD60A;
     display:flex; 

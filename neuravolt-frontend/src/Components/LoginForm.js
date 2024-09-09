@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 
 
 function LoginForm()
 {
+    const navigate = useNavigate() ; 
 
     const [loginFormData , setLoginFormData ] = useState( {
                                                             email:"" , 
@@ -30,6 +31,14 @@ function LoginForm()
 
        console.log("User Login Data") ; 
        console.log(loginFormData) ; 
+   }
+
+
+   //need to chnage just for routing to dashboard to show user flow 
+   function loginClickHandler()
+   {
+        navigate("/dashboard") ; 
+
    }
 
 
@@ -62,7 +71,7 @@ function LoginForm()
 
 
                 <div className="login-form-btn-container">
-                    <button className="login-btn">Sign In</button>
+                    <button onClick={loginClickHandler} className="login-btn">Log In</button>
                     <NavLink to="/forgot-neurakey"> Forgot NeuraKey ? </NavLink>
 
                 </div>
