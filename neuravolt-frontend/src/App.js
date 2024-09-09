@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import LoginPage from "./Pages/LoginPage";
-import ContactPage from "./Pages/ContactPage";
 import DashboardPage from "./Pages/DashboardPage";
 import Inbox from "./Pages/Dashboard/Inbox";
 import Predictions from "./Pages/Dashboard/Predictions";
@@ -12,6 +11,7 @@ import WeatherAnalysis from "./Pages/Dashboard/WeatherAnalysis";
 import Profile from "./Pages/Dashboard/Profile";
 import Settings from "./Pages/Dashboard/Settings";
 import APIkey from "./Pages/Dashboard/APIkey";
+import ContactSalesPage from "./Pages/ContactSalesPage";
 
 
 function App() 
@@ -23,7 +23,7 @@ function App()
         <Routes>   
             <Route path="/" element={ <HomePage/> }  />
             <Route path="/login" element={ <LoginPage/> } />
-            <Route path="/contact-sales" element={<ContactPage/> } />
+            <Route path="/contact-sales" element={<ContactSalesPage/>} />
 
             <Route path="/dashboard" element={<DashboardPage/> }>
 

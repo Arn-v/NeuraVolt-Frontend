@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
 /* NAVBAR */
 .navbar{
     width:100vw ; 
-    height:6.78rem ;
+    height:6.775rem ;
     display:flex ; 
     justify-content: center;
     align-items: center ;
@@ -362,4 +362,14 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 
 
-/* LOGIN-PAGE */
+/* CONTACT-SALES-PAGE */
+.contact-sales-page{
+    width:100vw ; 
+    height:100vh ; 
+}
+
+.contact-sales-section{
+    width:100vw ; 
+    height: calc(100vh - 6.775rem ) ; 
+    background-color: pink ;
+}

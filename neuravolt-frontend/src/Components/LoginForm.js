@@ -39,7 +39,7 @@ function LoginForm()
    
     return(
 
-        <div className="login-section">
+        <div>
             <form onSubmit={submitHandler}>
                 <div>
                     <label htmlFor="email">Enter Email</label>
