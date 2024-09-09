@@ -42,11 +42,17 @@ function LoginForm()
         <div>
             <form onSubmit={submitHandler}>
                 <div>
-                    <label htmlFor="email">Enter Email</label>
-                    <input type="text" onChange={changeHandler} name="email" id="email"></input>
 
-                    <label htmlFor="neura-key">Enter NeuraKey</label>
-                    <input type="password" onChange={changeHandler} name="neuraKey" id="neura-key"></input>
+                    <div>
+                        <label htmlFor="email">Enter Email</label>
+                        <input type="text" onChange={changeHandler} name="email" id="email"></input>
+                    </div>
+                    
+
+                    <div>
+                        <label htmlFor="neura-key">Enter NeuraKey</label>
+                        <input type="password" onChange={changeHandler} name="neuraKey" id="neura-key"></input>
+                    </div>
 
                 </div>
 

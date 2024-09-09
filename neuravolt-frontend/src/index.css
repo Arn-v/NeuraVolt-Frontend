@@ -373,3 +373,28 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     height: calc(100vh - 6.775rem ) ; 
     background-color: pink ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-sales-form{
+    border:2px solid blueviolet ; 
+    max-width:48vw ; 
+    min-width: 20rem;
+    width:auto ; 
+    height:58vh ; 
+    border-radius: var(--sds-size-radius-200);
+    opacity: var(--sds-size-stroke-border);
+    background: #F4F9FF;
+    display:flex ; 
+    flex-direction: column;
+
+}
