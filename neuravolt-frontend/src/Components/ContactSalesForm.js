@@ -74,14 +74,14 @@ function ContactSalesForm()
 
                     <div className="input-container">
                         <label htmlFor="message">How can we help ?</label>
-                        {/* <input type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"></input> */}
-                        <textarea type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"> </textarea>
+                        <input type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"></input>
+                        {/* <textarea type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"> </textarea> */}
                     </div>
 
                 </div>
 
                 <div className="contact-btn-container">
-                    <button>Submit</button>
+                    <button className="contact-sales-form-btn">Submit</button>
 
                 </div>
 

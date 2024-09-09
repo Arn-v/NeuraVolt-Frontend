@@ -23,6 +23,8 @@ button{
 }
 
 
+
+
 body{ 
     opacity: var(--sds-size-stroke-border);
     background: #FFF;
@@ -361,6 +363,12 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 
 
+/* LOGIN-PAGE */
+
+
+
+
+
 
 /* CONTACT-SALES-PAGE */
 .contact-sales-page{
@@ -388,7 +396,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     max-width:48vw ; 
     min-width: 20rem;
     width:auto ; 
-    height:58vh ; 
+    height:63vh ; 
     border-radius: var(--sds-size-radius-200) ; 
     opacity: var(--sds-size-stroke-border);
     padding:1rem ;  
@@ -412,12 +420,19 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 }
 
 .contact-fields-container input{
+    all:unset ; 
     height:1.7rem ; 
     border-radius: 4px ;
+    background-color:white ; 
 }
 
 .contact-fields-container label{ 
     font-family: 'DM Sans' ; 
+    color: var(--Labels-Primary, #000);
+    font-size: var(--sds-typography-body-size-medium);
+    font-style: normal;
+    font-weight: var(--sds-typography-body-font-weight-regular);
+    line-height: 140%; /* 1.4rem */
 }
 
 .input-container textarea{
@@ -462,6 +477,15 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
         flex-direction: column; 
     }
 
+}
 
 
+
+.contact-btn-container{
+    margin-bottom:0.55rem ;
+}
+.contact-sales-form-btn{
+    width:100% ; 
+    display:flex ; 
+    justify-content: center ;
 }
