@@ -48,33 +48,34 @@ function ContactSalesForm()
         <div>
             <form onSubmit={submitHandler} className="contact-sales-form">
 
-                <div>
+                <div className="contact-fields-container">
 
                     <div className="input-container" >
                         <label htmlFor="name">Name</label>
-                        <input type="text" onChange={changeHandler} name="name" id="name"></input>
+                        <input type="text" onChange={changeHandler} name="name" value={contactSalesFormData.name} id="name"></input>
                     </div>
 
                     <div className="input-container">
                         <label htmlFor="organization">Organization</label>
-                        <input type="text" onChange={changeHandler} name="organization" id="organization"></input>
+                        <input type="text" onChange={changeHandler} name="organization" value={contactSalesFormData.organization}  id="organization"></input>
                     </div>
 
                     <div>
                         <div>
                             <label htmlFor="business-email">Business Email</label>
-                            <input type="text" onChange={changeHandler} name="businessEmail" id="business-email"></input>
+                            <input type="text" onChange={changeHandler} name="businessEmail" value={contactSalesFormData.businessEmail} id="business-email"></input>
                         </div>
 
                         <div>
                             <label htmlFor="phone-number">Phone Number</label>
-                            <input type="text" onChange={changeHandler} name="phoneNumber" id="phone-number"></input>
+                            <input type="text" onChange={changeHandler} name="phoneNumber" value={contactSalesFormData.phoneNumber} id="phone-number"></input>
                         </div>
                     </div>
 
-                    <div>
+                    <div className="input-container">
                         <label htmlFor="message">How can we help ?</label>
-                        <input type="text" onChange={changeHandler} name="contactMessage" id="message"></input>
+                        {/* <input type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"></input> */}
+                        <textarea type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"> </textarea>
                     </div>
 
                 </div>
@@ -83,7 +84,7 @@ function ContactSalesForm()
                     <button>Submit</button>
 
                 </div>
-                
+
             </form>
 
         </div>
