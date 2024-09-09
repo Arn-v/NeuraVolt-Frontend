@@ -505,8 +505,6 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 .login-form .login-btn:hover{
     cursor: pointer;
-    transform: sc;
-
 }
 
 
