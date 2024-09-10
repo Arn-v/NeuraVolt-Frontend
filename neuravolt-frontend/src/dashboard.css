@@ -19,8 +19,9 @@
     height:100vh ; 
     display:flex ; 
     opacity: var(--sds-size-stroke-border);
-    background: #F1F5F9;
+    /* background: #F1F5F9; */
     font-family: 'DM Sans' ; 
+    background-color: #E0F2FE;
 }
 
 .dashboard-view{
@@ -149,7 +150,9 @@
 
     border-radius: 0.375rem;
     opacity: var(--sds-size-stroke-border);
-    background: #C0E6FF;
+    /* background: #C0E6FF; */
+     background: var(--Grays-Gray-5, #E5E5EA);
+
 }
 
 .profile-text{

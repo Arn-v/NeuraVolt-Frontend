@@ -190,6 +190,16 @@ body::-webkit-scrollbar {
 
 
 
+/* DASHBOARD PREVIEW SECTION */
+.dashboard-preview-section{
+    width:100vw ; 
+    background-color: pink ;
+}
+
+
+
+
+
 
 
 
