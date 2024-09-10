@@ -19,6 +19,8 @@ function Accordion( {question , answer })
             <div onClick={clickHandler}  className="question-container">
                 <p>{question}</p>
                  <span> <img src={ accordionOpen ? up : down } alt="down-faq" size="2em"></img></span> 
+                  {/* <span> <img src={  up  } className={`${!accordionOpen && 'rotate-180' }`} alt="down-faq" size="2em"></img></span>  */}
+
             </div>
 
 

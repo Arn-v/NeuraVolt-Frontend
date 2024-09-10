@@ -478,6 +478,12 @@ body::-webkit-scrollbar {
     overflow: hidden;          /* Hide overflowed content */
     visibility: hidden;        /* Initially hidden */
     transition: max-height 0.4s ease, opacity 0.4s ease, padding 0.4s ease, visibility 0s ease 0.4s;
+    font-family: 'DM Sans';
+    font-size: 1.05rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 1.875rem */
+
 }
   
 
