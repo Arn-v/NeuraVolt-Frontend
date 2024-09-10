@@ -381,7 +381,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     display:flex ; 
     justify-content: center ;
     align-items: center ; 
-    padding-bottom:4vh ; 
+    padding-bottom:0.5vh ; 
 
 }
 
@@ -389,13 +389,13 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     height:auto ; 
     padding: 3px 4px ; 
     color: var(--Labels-Primary, #000);
-    font-size: 2.2rem;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 800;
     line-height: 120%; /* 3.6rem */
     letter-spacing: -1px ;
-    margin-bottom: 2px ;
-    margin-left: 1px ;
+    margin-bottom: 6px ;
+    margin-left: 0.88rem ;
 }
 
 
@@ -419,6 +419,9 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     opacity: var(--sds-size-stroke-border);
     background: #F4F8FF;
     box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.30);
+    margin: 4px 15px 43px 15px  ;
+
+    z-index:100 ; 
 
     
 }
@@ -455,23 +458,36 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 
     input{
-        all:unset ; 
-        height:2.05rem ; 
+        /* all:unset ;  */
+        border:none ; 
+        outline:none ; 
+        height:2.15rem ; 
         width:95% ; 
         border-radius: var(--sds-size-radius-200);
         border: 1px solid var(--sds-color-border-default-default);
         opacity: var(--sds-size-stroke-border);
         background: var(--sds-color-background-default-default);
         font-size:0.9rem ; 
-        padding:0 10px ; 
-        border-radius: 5px ;
+        padding:1px 10px ; 
+        border-radius: 7px ;
+
+        /* color: var(--sds-color-text-default-tertiary); */
+        font-style: normal;
+        line-height: 100%;
+        color:#757575 ; 
+
 
     }
 }
 
 
 .login-input-container input:hover {
-    border:1px solid #1b7dfe ;
+    border:2px solid #2e86fa ;
+
+}
+
+.login-input-container input:focus {
+    border:2px solid #1b7dfe ;
 
 }
 
@@ -513,7 +529,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     text-decoration: underline ;
     font-size: 0.95rem ;
     padding-left:4px ; 
-    margin: 2px 0 ; 
+    margin: 4px 0 ; 
 
 }
 
