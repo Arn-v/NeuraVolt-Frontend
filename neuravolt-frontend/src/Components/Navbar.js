@@ -1,5 +1,9 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import neuravoltLogo from "../assets/logo.svg" ; 
+import { FiUser } from "react-icons/fi";
+
+
+
 
 
 
@@ -45,9 +49,9 @@ function Navbar( {page})
 
                     <div className="nav-btn-container">
                         { 
-                        page==="home" ? ( <><button className="contact-btn nav-btn"  onClick={contactClickHandler}>Contact Sales</button>   <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button> </> ) 
-                                        : page==="contact-sales" ? <button className="login-btn nav-btn" onClick={loginClickHandler}>Log In</button>  : <button className="contact-btn nav-btn" onClick={contactClickHandler}>Contact Sales</button> 
-                                        
+                        page==="home" ? ( <><button className="contact-btn nav-btn"  onClick={contactClickHandler}>Contact Sales</button>   <button className="login-btn nav-btn" onClick={loginClickHandler}> <FiUser className="user-icon" size={17}/> <span>Log In</span></button> </> ) 
+                                        : page==="contact-sales" ? <button className="login-btn nav-btn" onClick={loginClickHandler}><FiUser size={19}/> <span id="login-only">Log In</span></button>  : <button className="contact-btn nav-btn" onClick={contactClickHandler}>Contact Sales</button> 
+                                    
                         }
 
                         {/* <button onClick={signupClickHandler}>Sign Up</button> 
