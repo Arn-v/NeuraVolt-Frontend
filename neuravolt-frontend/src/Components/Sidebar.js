@@ -1,5 +1,5 @@
 import box from "../assets/sidebar/box.svg" ; 
-import home from "../assets/sidebar/home.svg" ; 
+import home from "../assets/sidebar/home (1).svg"
 import predictions from "../assets/sidebar/file-text.svg" ; 
 import anaytics from "../assets/sidebar/layers.svg" ;  
 import consumerReport from "../assets/sidebar/sliders.svg"  ; 
@@ -57,7 +57,7 @@ function Sidebar()
 
                 <NavLink to="">
                     <div className="sidebar-item service">
-                            <img src={home} alt="home"></img>
+                            <img id="home-icon" src={home} alt="home"></img>
                             <p>Home</p>
 
                     </div>
