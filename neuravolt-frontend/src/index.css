@@ -624,8 +624,8 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     max-width:48vw ; 
     min-width: 20rem;
     width:auto ; 
-    height:63vh ; 
-    border-radius: var(--sds-size-radius-200) ; 
+    height:63vh ;
+    border-radius: 0.625rem;
     opacity: var(--sds-size-stroke-border);
     padding:1rem ;  
     background: #F4F9FF;
@@ -634,6 +634,8 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     align-items: center;
     justify-content: space-between ; 
 
+    box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.30);
+    margin: 4px 15px 43px 15px  ;  
 
 
 }
@@ -649,14 +651,33 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 .contact-fields-container input{
     all:unset ; 
-    height:1.7rem ; 
+    height:2.1rem ; 
     border-radius: 4px ;
     background-color:white ; 
+    max-width:95% ; 
+    border-radius: var(--sds-size-radius-200);
+    border: 1px solid var(--sds-color-border-default-default);
+    opacity: var(--sds-size-stroke-border);
+    background: var(--sds-color-background-default-default);
+    font-size:0.9rem ; 
+    padding:1px 10px ; 
+    border-radius: 7px ;
+
+    font-style: normal;
+    line-height: 100%;
+    color:#757575 ; 
 }
 
 .contact-fields-container label{ 
     font-family: 'DM Sans' ; 
     color: var(--Labels-Primary, #000);
+    font-size: var(--sds-typography-body-size-medium);
+    font-style: normal;
+    line-height: 140%; /* 1.4rem */
+    color: var(--sds-color-text-default-default);
+    font-weight: 600;
+    color:#000 ; 
+    font-family: var(--sds-typography-body-font-family);
     font-size: var(--sds-typography-body-size-medium);
     font-style: normal;
     font-weight: var(--sds-typography-body-font-weight-regular);
