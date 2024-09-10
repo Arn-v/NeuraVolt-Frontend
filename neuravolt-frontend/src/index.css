@@ -649,13 +649,13 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 }
 
 
-.login-input-container input:hover {
+/* .login-input-container input:hover {
     border:2px solid #2e86fa ;
 
-}
+} */
 
 .login-input-container input:focus {
-    border:2px solid #1b7dfe ;
+    border:1px solid #1b7dfe ;
 
 }
 
@@ -723,6 +723,13 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 }
 
 
+.contact-sales-form-container{
+    display:flex ; 
+    flex-direction: column;
+    width:auto ; 
+    height:auto ; 
+    margin:10px auto ; 
+}
 
 
 
@@ -734,10 +741,10 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 
 .contact-sales-form{
-    max-width:48vw ; 
+    max-width:40vw ; 
     min-width: 20rem;
     width:auto ; 
-    height:63vh ;
+    min-height:63vh ;
     border-radius: 0.625rem;
     opacity: var(--sds-size-stroke-border);
     padding:1rem ;  
@@ -781,6 +788,15 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     color:#757575 ; 
 }
 
+/* .contact-fields-container input:hover{
+    border:2px solid  #2e86fa ;
+} */
+
+
+.contact-fields-container input:focus{
+      border:1px solid #1b7dfe ;
+}
+
 .contact-fields-container label{ 
     font-family: 'DM Sans' ; 
     color: var(--Labels-Primary, #000);
@@ -808,7 +824,6 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     flex-direction:column ; 
     align-items: center ;
     justify-content: space-between;
-    border:1px solid blueviolet ; 
     gap:0.33rem ; 
 
     label{
@@ -832,17 +847,71 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     display:flex ; 
     justify-content:space-between ;
     align-items: center ;
+    gap:12px ; 
 
 
     > div{
         display: flex ;
-        flex-direction: column; 
-
+        flex-direction: column;
 
         
     }
 
 }
+
+#business-email-container{
+    width:58% ;  
+}
+
+
+#phone-no-container{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+
+.contact-fields-container :nth-child(4){
+    height:auto ; 
+    margin-bottom:2rem; 
+
+    textarea{
+        display:flex ; 
+        all:unset ; 
+        border-radius: 2px ;
+        background-color:white ; 
+        width:95% ; 
+        border-radius: var(--sds-size-radius-200);
+        border: 1px solid var(--sds-color-border-default-default);
+        opacity: var(--sds-size-stroke-border);
+        background: var(--sds-color-background-default-default);
+        font-size:0.9rem ; 
+        padding:12px 10px ; 
+        border-radius: 7px ;
+        min-height:5rem ;
+    
+        font-style: normal;
+        line-height: 100%;
+        color:#757575 ; 
+
+    }
+    
+}
+
+
+
+
+
+/* #message:hover{
+    border:1px solid  #2e86fa ;
+} */
+
+
+#message:focus{
+      border:1px solid #1b7dfe ;
+}
+
+
 
 
 
@@ -850,7 +919,26 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     margin-bottom:0.55rem ;
 }
 .contact-sales-form-btn{
-    width:100% ; 
+    width:95% ; 
     display:flex ; 
     justify-content: center ;
+
+    height:2.5rem ; 
+    padding: 0.7rem auto ;
+    background-color: #FFD60A;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem ;
+ 
+    color: var(--Labels-Primary, #000);
+
+    font-family: "DM Sans" ; 
+    font-size: var(--sds-typography-body-size-medium);
+    font-style: normal;
+    font-weight: var(--sds-typography-body-font-weight-regular);
+    line-height: 100%; /* 1rem */
+    font-weight: 400;
+    border-radius: 0.45rem ;
+    border:none
 }

@@ -52,32 +52,31 @@ function ContactSalesForm()
 
                     <div className="input-container" >
                         <label htmlFor="name">Name</label>
-                        <input type="text" onChange={changeHandler} name="name" value={contactSalesFormData.name} id="name"></input>
+                        <input type="text" onChange={changeHandler} name="name" value={contactSalesFormData.name} id="name" placeholder="Name"></input>
                     </div>
 
                     <div className="input-container">
                         <label htmlFor="organization">Organization</label>
-                        <input type="text" onChange={changeHandler} name="organization" value={contactSalesFormData.organization}  id="organization"></input>
+                        <input type="text" onChange={changeHandler} name="organization" value={contactSalesFormData.organization}  id="organization" placeholder="Organization Name"></input>
                     </div>
 
                     <div>
-                        <div>
+                        <div id="business-email-container">
                             <label htmlFor="business-email">Business Email</label>
-                            <input type="text" onChange={changeHandler} name="businessEmail" value={contactSalesFormData.businessEmail} id="business-email"></input>
+                            <input type="text" onChange={changeHandler} name="businessEmail" value={contactSalesFormData.businessEmail} id="business-email" placeholder="Email Id"></input>
                         </div>
 
-                        <div>
+                        <div id="phone-no-container">
                             <label htmlFor="phone-number">Phone Number</label>
-                            <input type="text" onChange={changeHandler} name="phoneNumber" value={contactSalesFormData.phoneNumber} id="phone-number"></input>
+                            <input type="text" onChange={changeHandler} name="phoneNumber" value={contactSalesFormData.phoneNumber} id="phone-number" placeholder="Phone Number"></input>
                         </div>
                     </div>
 
                     <div className="input-container">
                         <label htmlFor="message">How can we help ?</label>
-                        <input type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"></input>
+                        <textarea type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"  placeholder="Message"></textarea>
                         {/* <textarea type="text" onChange={changeHandler} name="contactMessage" value={contactSalesFormData.contactMessage} id="message"> </textarea> */}
                     </div>
-
                 </div>
 
                 <div className="contact-btn-container">

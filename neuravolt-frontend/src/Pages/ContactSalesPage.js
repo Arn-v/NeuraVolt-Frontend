@@ -14,9 +14,14 @@ function ContactSalesPage()
 
             <div className="contact-sales-section">
 
-                <div className="lets-talk-container">LETS TALK</div>
+                {/* <div className="lets-talk-container">LETS TALK</div> */}
+
+
 
                 <div className="contact-sales-form-container">
+
+                    <h2>Contact Us</h2>
+
                     <ContactSalesForm />
 
                 </div>
