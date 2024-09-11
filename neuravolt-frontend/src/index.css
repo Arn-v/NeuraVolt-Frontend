@@ -754,10 +754,13 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 .lets-talk-container{
     display:flex ; 
     flex-direction: column ; 
+    align-items: start;
+    justify-content: space-evenly;
     max-width: 39.0625rem;
     height: auto ;
-    padding:0.5rem ; 
-    height:  63vh ; 
+    padding: 1.5rem 0.5rem ; 
+    height:63vh ;
+    gap:4rem ; 
 } 
 
 
@@ -799,6 +802,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     align-items: flex-start;
     gap: 1.375rem;
     justify-self: flex-end ;
+    margin-right: 8px ;
 }
 
 
