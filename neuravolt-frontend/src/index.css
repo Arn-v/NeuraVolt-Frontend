@@ -999,6 +999,9 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 #business-email-container{
     width:58% ;  
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
@@ -1012,6 +1015,10 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 .contact-fields-container :nth-child(4){
     height:auto ; 
     margin-bottom:2rem; 
+
+    label{
+        text-align: left ;
+    }
 
     textarea{
         display:flex ; 
