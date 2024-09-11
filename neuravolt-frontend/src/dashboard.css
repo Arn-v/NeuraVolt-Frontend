@@ -202,3 +202,56 @@
     width:3rem ; 
 
 }
+
+
+
+
+
+
+/* COOKING SECTION */
+.cooking-container{
+    background-color: white;
+    width: 95%;
+    margin: 3rem auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    font-family: 'DM Sans';
+}
+
+.cooking-container h1{
+    color: #056FFC;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cooking-container p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+
+.btn{
+
+    background-color:#E5E5EA ; 
+    color:black ;  
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    display: block;
+    margin: 25px auto 15px auto ;
+    text-decoration: none;
+}
+
+
+.btn:hover{
+    background-color:#ccccd0 ; 
+    font-weight: 500;
+}

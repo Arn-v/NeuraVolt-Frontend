@@ -9,7 +9,9 @@ function DashboardPage()
 
             <Sidebar />
 
-            <div className="dashboard-view"><Outlet /></div>
+            <div className="dashboard-view">
+                <Outlet />
+            </div>
 
         </div>
     )
