@@ -12,7 +12,7 @@ function DashboardHome()
 
                 <h1>Cooking Our Website</h1>
 
-                <p>We are going to launch our website Very Soon. Stay Tuned.</p>
+                <p>We are going to launch our Product Very Soon. Stay Tuned.</p>
 
                 <NavLink to="" className="btn">Beta Version</NavLink>
 
