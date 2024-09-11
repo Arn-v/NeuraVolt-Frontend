@@ -40,7 +40,7 @@ function ContactSalesPage()
 
                 <div className="contact-sales-form-container">
 
-                    <h2>Contact Us</h2>
+                    {/* <h2>Contact Us</h2> */}
 
                     <ContactSalesForm />
 

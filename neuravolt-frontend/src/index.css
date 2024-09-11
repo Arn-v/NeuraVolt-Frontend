@@ -178,10 +178,11 @@ body::-webkit-scrollbar {
 
 
 .login-btn.nav-btn:hover{ 
-    transform: scale(1.02);
+    transform: scale(1.04);
     transition: all 0.1s ease-in ; 
     cursor:pointer ; 
     font-weight: 600;
+    overflow: hidden;
 
 
 }
@@ -737,6 +738,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     width:100vw ; 
     height: calc(100vh - 6.775rem ) ; 
     display:flex ; 
+    align-items: center;
     justify-content: space-between;
     padding:0 2.5rem ; 
 
@@ -750,13 +752,13 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     max-width: 39.0625rem;
     height: auto ;
     padding:0.5rem ; 
+    min-height:63vh ;
 } 
 
 
 .lets-talk-container h1{
     width: 13rem;
-    height: 7.5rem;
-    border:2px solid red ;
+    height: 7.48rem;
     color: var(--Labels-Primary, #000);
     font-family: Montserrat;
     font-family: 'DM Sans';
@@ -785,7 +787,6 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 .lets-talk-container .contact-btn-container{
     width:90% ;
     height:auto ; 
-    border: 2px solid pink ; 
     padding:1rem ; 
     display: flex;
     align-items: flex-start;
@@ -853,11 +854,6 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     height:auto ; 
  
 }
-
-
-
-
-
 
 
 
