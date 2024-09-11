@@ -139,7 +139,12 @@
 }
 
 .service-content-container{
-    margin-bottom:1.5rem  ; 
+    margin-bottom:1.4rem  ; 
+    overflow: hidden ;
+}
+
+.help-content-container{
+    overflow: hidden ;
 }
 
 
