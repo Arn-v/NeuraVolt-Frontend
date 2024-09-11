@@ -20,7 +20,7 @@ function HeroSection()
 
                 <p className="hero-desc">AI-driven insights for optimized electricity demand forecasting and sustainable energy solutions.</p>
 
-                <button className="hero-btn">Know More</button>
+                <button className="hero-btn">Get in Touch</button>
                 
             </div>
 

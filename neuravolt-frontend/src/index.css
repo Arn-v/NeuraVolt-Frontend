@@ -720,6 +720,10 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 .contact-sales-section{
     width:100vw ; 
     height: calc(100vh - 6.775rem ) ; 
+    display:flex ; 
+    align-items: center ;
+    padding-top: 0.1rem ;
+
 }
 
 
@@ -728,7 +732,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     flex-direction: column;
     width:auto ; 
     height:auto ; 
-    margin:10px auto ; 
+ 
 }
 
 
@@ -741,8 +745,8 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 
 .contact-sales-form{
-    max-width:40vw ; 
-    min-width: 20rem;
+    max-width:45vw ; 
+    min-width:35rem ;
     width:auto ; 
     min-height:63vh ;
     border-radius: 0.625rem;
@@ -755,7 +759,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     justify-content: space-between ; 
 
     box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.30);
-    margin: 4px 15px 43px 15px  ;  
+    margin: 4px 15px 2px 15px  ;  
 
 
 }
@@ -774,7 +778,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     height:2.1rem ; 
     border-radius: 4px ;
     background-color:white ; 
-    max-width:95% ; 
+    max-width:93% ; 
     border-radius: var(--sds-size-radius-200);
     border: 1px solid var(--sds-color-border-default-default);
     opacity: var(--sds-size-stroke-border);
@@ -795,6 +799,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 .contact-fields-container input:focus{
       border:1px solid #1b7dfe ;
+      
 }
 
 .contact-fields-container label{ 
@@ -880,7 +885,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
         all:unset ; 
         border-radius: 2px ;
         background-color:white ; 
-        width:95% ; 
+        width:93% ; 
         border-radius: var(--sds-size-radius-200);
         border: 1px solid var(--sds-color-border-default-default);
         opacity: var(--sds-size-stroke-border);

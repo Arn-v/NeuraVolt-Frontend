@@ -80,7 +80,7 @@ function ContactSalesForm()
                 </div>
 
                 <div className="contact-btn-container">
-                    <button className="contact-sales-form-btn">Submit</button>
+                    <button className="contact-sales-form-btn">Get in Touch</button>
 
                 </div>
 
