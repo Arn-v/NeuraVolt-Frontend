@@ -16,19 +16,19 @@ function ContactSalesPage()
 
                 <div className="lets-talk-container">
 
-                    <h1>Let'<span>s</span> Talk </h1>
+                    <h1>Let<span>’</span>s Talk </h1>
 
                     <p>If you have any questions about the subscription or our products. Contact our team by filling out the form.</p>
 
                     <div className="contact-btn-container">
 
                         <button className="call-us-btn">
-                            <p>Call Us</p>
+                            <p>Call Us :</p>
                             <p>987654321</p>
                         </button>
 
                         <button className="email-us-btn">
-                            <p>Email us:</p>
+                            <p>Email Us :</p>
                             <p>neuravolt06@gmail.com</p>
                         </button>
 

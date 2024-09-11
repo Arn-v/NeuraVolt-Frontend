@@ -132,8 +132,15 @@ body::-webkit-scrollbar {
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     border: 2px solid #056FFC;
     opacity: 1 ;
-        
+    margin-bottom: 2px ;
+}
 
+.contact-btn:hover{
+    border:2px solid #FFD60A; 
+    transform:scale(1.01) ;
+    color:#FFD60A;
+    transition: all 0.1s ease-in ; 
+    cursor:pointer ; 
 }
 
 
@@ -167,6 +174,16 @@ body::-webkit-scrollbar {
         font-weight: 500 ;
         
     }
+}
+
+
+.login-btn.nav-btn:hover{ 
+    transform: scale(1.02);
+    transition: all 0.1s ease-in ; 
+    cursor:pointer ; 
+    font-weight: 600;
+
+
 }
 
 #login-only{
@@ -590,7 +607,6 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     margin: 4px 15px 43px 15px  ;
 
     z-index:100 ; 
-
     
 }
 
@@ -721,8 +737,111 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
     width:100vw ; 
     height: calc(100vh - 6.775rem ) ; 
     display:flex ; 
-    align-items: center ;
-    padding-top: 0.1rem ;
+    justify-content: space-between;
+    padding:0 2.5rem ; 
+
+}
+
+.lets-talk-container{
+    display:flex ; 
+    flex-direction: column ;
+    justify-content: space-around ;
+    height:95% ; 
+    max-width: 39.0625rem;
+    height: auto ;
+    padding:0.5rem ; 
+} 
+
+
+.lets-talk-container h1{
+    width: 13rem;
+    height: 7.5rem;
+    border:2px solid red ;
+    color: var(--Labels-Primary, #000);
+    font-family: Montserrat;
+    font-family: 'DM Sans';
+    font-size: 3.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80% ; 
+    letter-spacing: -0.25rem;
+}
+
+.lets-talk-container h1 span{
+    color:#007AFF; 
+}
+
+
+.lets-talk-container > p {
+    color: var(--Labels-Primary, #000);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 104.348% */
+    letter-spacing: -0.08625rem;
+}
+
+.lets-talk-container .contact-btn-container{
+    width:90% ;
+    height:auto ; 
+    border: 2px solid pink ; 
+    padding:1rem ; 
+    display: flex;
+    align-items: flex-start;
+    gap: 1.375rem;
+}
+
+
+.lets-talk-container .contact-btn-container button{
+    width:13rem ;
+    max-height:5rem ;
+    min-height:4rem ; 
+    height:auto ; 
+
+    font-family: 'DM Sans';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: -0.01rem ;
+    border-radius: 0.625rem ;
+    cursor: pointer;
+}
+
+
+.call-us-btn{
+    color: var(--White, #FFF);
+    padding:0.75rem ; 
+
+    border: 2px solid var(--Blue-600, #2563EB);
+    opacity: var(--sds-size-stroke-border);
+    background: var(--Blue-600, #2563EB);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    
+}
+
+.call-us-btn p{
+    margin-right: 1.9rem ;
+}
+
+.call-us-btn p:nth-child(1){
+    padding-right:2rem ; 
+}
+
+.email-us-btn{
+    color:#2563EB ; 
+    display: flex;
+    flex-direction: column;
+    align-items: start ;
+    border: 2px solid var(--Blue-600, );
+    opacity: var(--sds-size-stroke-border);
+    padding:0.75rem 0.63rem ; 
+    padding-left:5px ; 
 
 }
 
@@ -799,7 +918,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
 
 .contact-fields-container input:focus{
       border:1px solid #1b7dfe ;
-      
+
 }
 
 .contact-fields-container label{ 
@@ -893,7 +1012,7 @@ transition: all 0.5s cubic-bezier (1,0,1,0); */
         font-size:0.9rem ; 
         padding:12px 10px ; 
         border-radius: 7px ;
-        min-height:5rem ;
+        min-height:3.5rem ;
     
         font-style: normal;
         line-height: 100%;
