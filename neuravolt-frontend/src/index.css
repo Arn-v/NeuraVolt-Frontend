@@ -133,14 +133,17 @@ body::-webkit-scrollbar {
     border: 2px solid #056FFC;
     opacity: 1 ;
     margin-bottom: 2px ;
+    margin: 2px;
 }
 
 .contact-btn:hover{
-    border:2px solid #FFD60A; 
+    border:2px solid black ; 
     transform:scale(1.01) ;
-    color:#FFD60A;
+    color:black ;
     transition: all 0.1s ease-in ; 
     cursor:pointer ; 
+
+    overflow: hidden ;
 }
 
 

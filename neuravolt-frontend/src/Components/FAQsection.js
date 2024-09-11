@@ -10,8 +10,8 @@ function FAQsection()
             <div className="faq-title">
 
                 <h1> Frequently Asked Questions</h1>
-                <p className="faq-desc">Et pulvinar nec interdum integer id urna molestie porta nullam. A, donec ornare sed turpis 
-                    pulvinar purus maecenas quam a. Erat porttitor pharetra sed in mauris elementum sollicitudin.</p>
+                <p className="faq-desc">Our FAQs offer quick answers about our AI-based electricity demand prediction 
+                    system, covering how it works, its benefits, and key technical details to help users make the most of the platform.</p>
 
             </div>
 

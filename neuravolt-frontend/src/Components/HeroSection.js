@@ -1,4 +1,3 @@
-import { click } from "@testing-library/user-event/dist/click";
 import gLight from "../assets/gLight.svg" ; 
 import yLight from "../assets/yLight.svg" ; 
 import { useNavigate } from "react-router-dom";
