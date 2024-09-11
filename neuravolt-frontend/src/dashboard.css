@@ -102,7 +102,7 @@
     display: flex;
     width: 100%;
     min-height:2.7rem ; 
-    max-height: 3rem;
+    height:auto ; 
     padding: 1px 6px ;
     align-items: center;
     /* flex-shrink: 0; */
@@ -118,6 +118,8 @@
     font-weight: 800;
     line-height: 120%; /* 1.2rem */
     transform: scale(1.01);
+    height:100% ; 
+    overflow-y: hidden ;
 }
 
 .sidebar-item img{
@@ -170,6 +172,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 120%; /* 1.2rem */
+    overflow-y: hidden ;
 }
 
 
