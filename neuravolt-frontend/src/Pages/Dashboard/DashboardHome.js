@@ -14,7 +14,7 @@ function DashboardHome()
 
                 <p>We are going to launch our Product Very Soon. Stay Tuned.</p>
 
-                <NavLink to="" className="btn">Beta Version</NavLink>
+                {/* <NavLink to="" className="btn">Beta Version</NavLink> */}
 
             </div>
 

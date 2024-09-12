@@ -22,7 +22,7 @@ function HeroSection()
 
             <div className="hero-content">
 
-                <h1 className="hero-title">Predicting Power, Perfecting Effieciency</h1>
+                <h1 className="hero-title">Predicting Power, Perfecting Efficiency</h1>
 
                 <p className="hero-desc">AI-driven insights for optimized electricity demand forecasting and sustainable energy solutions.</p>
 
